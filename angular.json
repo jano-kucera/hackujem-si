@@ -50,7 +50,7 @@
                 "deploy": {
                     "builder": "angular-cli-ghpages:deploy",
                     "options": {
-                        "baseHref": "https://hackujem-si.sk/",
+                        "baseHref": "https://hackujemsi.sk/",
                         "branch": "gh-pages",
                         "dir": "dist/hackujem-si",
                         "repo": "https://github.com/jano-kucera/hackujem-si.git"
