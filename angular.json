@@ -5,7 +5,7 @@
         "hackujem-si": {
             "architect": {
                 "build": {
-                    "builder": "@angular-devkit/build-angular:application",
+                    "builder": "@angular-devkit/build-angular:browser-esbuild",
                     "configurations": {
                         "development": {
                             "extractLicenses": false,
@@ -37,9 +37,9 @@
                                 "input": "public"
                             }
                         ],
-                        "browser": "src/main.ts",
                         "index": "src/index.html",
                         "inlineStyleLanguage": "scss",
+                        "main": "src/main.ts",
                         "outputPath": "dist/hackujem-si",
                         "polyfills": ["zone.js"],
                         "scripts": [],
