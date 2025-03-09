@@ -66,7 +66,7 @@
         "deploy": "ng deploy",
         "lint": "npx eslint \"**/*.{ts,html}\" --fix && prettier --write \"**/*.{json,scss}\" --log-level silent",
         "ng": "ng",
-        "start": "ng serve",
+        "start": "ng serve --open",
         "update-packages": "npx npm-check-updates --interactive --format group",
         "watch": "ng build --watch --configuration development"
     },

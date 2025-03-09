@@ -1,0 +1,20 @@
+<nav class="max-w-6xl mx-auto px-6 py-4">
+    <ul class="w-full flex flex-col lg:flex-row gap-8 text-2xl font-bold uppercase text-center justify-center">
+        <!-- Home logo -->
+        <a routerLink="/">
+            <img
+                src="logo.svg"
+                alt="logo"
+                class="w-15" />
+        </a>
+
+        <!-- Nav links -->
+        @for (i of navLinks; track $index) {
+            <a
+                class="self-center text-[#423F32] hover:text-gray-900"
+                [routerLink]="i.path">
+                {{ i.label }}
+            </a>
+        }
+    </ul>
+</nav>
